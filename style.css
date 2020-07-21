@@ -177,4 +177,32 @@ div.bar .content ul li strong {
   cursor: pointer;
 }
 
+div.bar .content ul li.active strong {
+  color: #3bb9e3;
+}
+
+div.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.actions button {
+  font-weight: bold;
+  font-size: 14px;
+  color: #3bb9e3;
+  background: #fff;
+  width: 90px;
+  padding: 10px;
+  border: 1px solid #3bb9e3;
+  border-radius: 16px;
+  cursor: pointer;
+
+  margin-right: 20px;
+}
+
+div.actions img {
+  cursor: pointer;
+}
+
 
