@@ -350,7 +350,74 @@ div.wrapper-content .timeline nav a.active {
   color: #1f2226;
 }
 
+div.wrapper-content .timeline ul.tweets {
+  list-style: none;
+}
 
+div.wrapper-content .timeline ul.tweets li {
+  display: flex;
+
+  padding: 10px 15px;
+  border-bottom: 1px solid #ccd6dd;
+}
+
+div.wrapper-content .timeline ul.tweets li > img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+div.wrapper-content .timeline ul.tweets li .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+div.wrapper-content .timeline ul.tweets li .info strong {
+  font-size: 14px;
+  color: #1f2226;
+  cursor: pointer;
+}
+
+div.wrapper-content .timeline ul.tweets li .info strong span {
+  font-size: 13px;
+  font-weight: normal;
+  color: #1f2226;
+}
+
+div.wrapper-content .timeline ul.tweets li .info p {
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 5px;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  font-size: 12px;
+  font-weight: bold;
+  color: #667580;
+  margin-left: 30px;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions a:first-child {
+  margin-left: 0;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
 
 /* CSS Code Aside Widgtes and Followers */
 
