@@ -321,11 +321,38 @@ div.wrapper-content aside.profile .pictures ul li {
   margin: 0 5px 5px 0;
 }
 
+/* CSS Code Session Timeline - Center */
+
 div.wrapper-content .timeline {
   flex: 1;
-  background: #ba68c8;
-  margin-top: 10px;
+  background: #fff;
+  margin: 10px 20px 0;
 }
+
+div.wrapper-content .timeline nav {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ccd6dd;
+}
+
+div.wrapper-content .timeline nav a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3bb9e3;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+div.wrapper-content .timeline nav a:first-child {
+  margin: 0;
+}
+
+div.wrapper-content .timeline nav a.active {
+  color: #1f2226;
+}
+
+
+
+/* CSS Code Aside Widgtes and Followers */
 
 div.wrapper-content aside.widgtes {
   width: 290px;
