@@ -3,7 +3,7 @@
 Projeto clone da página de Profile do Twitter utilizando o Flexbox CSS. Um curso bônus da Rocketseat GoStack.
 
 <p align="center">
-  <img src="images/view-full-page-project.png" alt="View Template - Twitter com CSS Flexbox" width="1280">
+  <img src="images/view-full-page-project.png" alt="View Template - Twitter com CSS Flexbox" width="998">
 </p>
 
 ### Aplicação 100% desenvolvida com HTML, CSS e Flexbox:
